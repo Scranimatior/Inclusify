@@ -13,233 +13,173 @@
 
     body {
       font-family: "Courier New", Courier, monospace;
-      background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");
-      background-size: cover;
+      background-image: url('https://t3.ftcdn.net/jpg/08/42/43/34/360_F_842433409_GKs1afh48jivOd5BxUy2dqREyIpuVH83.jpg');
       color: white;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      text-align: center;
+      background-size: cover;
       padding: 20px;
-      max-width: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 10px;
+      line-height: 1.6;
+      overflow-x: hidden;
     }
 
     header {
-      font-size: 36px;
-      margin-bottom: 30px;
+      text-align: center;
+      padding: 20px;
     }
 
-    h1 {
-      font-size: 48px;
-      margin-top: 30px;
+    header h1 {
+      font-size: 3rem;
+      color: #ffd700;
     }
 
-    h2 {
-      font-size: 28px;
-      color: #FFD700;
-      margin-top: 20px;
+    header p {
+      font-size: 1.2rem;
+      color: #00bfff;
     }
 
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
+    .image-container {
+      text-align: right;
+    }
+
+    .image-container img {
+      max-width: 100px;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    h2, h3 {
+      color: #ffd700;
     }
 
     ul {
       list-style-type: none;
-      padding: 0;
-      margin-bottom: 30px;
-    }
-
-    li {
-      font-size: 22px;
-      margin: 10px 0;
-    }
-
-    button {
-      background-color: #FFD700;
-      color: #000;
-      padding: 15px 30px;
-      border: none;
-      font-size: 18px;
-      cursor: pointer;
-      margin-top: 20px;
-      border-radius: 5px;
-    }
-
-    button:hover {
-      background-color: #FF6347;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    .header-image {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 200px;
-      border-radius: 10px;
-    }
-
-    .quote {
-      font-size: 20px;
-      color: #FFD700;
-      margin: 30px 0;
-      font-style: italic;
-    }
-
-    .more-info {
-      margin-top: 30px;
-      font-size: 18px;
-    }
-
-    .features-buttons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
 
     .feature-button {
-      background-color: #FFD700;
-      color: black;
-      padding: 15px 40px;
-      margin: 10px;
-      font-size: 18px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .feature-button:hover {
-      background-color: #FF6347;
-    }
-
-    .tech-item {
-      margin-top: 30px;
-      background: rgba(255, 255, 255, 0.2);
       padding: 10px;
-      border-radius: 10px;
-      width: 30%;
-      display: inline-block;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
     }
 
     .feature-details {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
       display: none;
-      font-size: 18px;
-      color: white;
+      background-color: #222;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
     }
 
-    .active {
+    .feature-details.active {
       display: block;
     }
 
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #ffd700;
+      font-size: 1.1rem;
+    }
+
+    .external-link {
+      text-align: center;
+      padding: 10px;
+      background-color: #ffd700;
+      color: black;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+
+    .external-link a {
+      color: black;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Welcome to Inclusion Hub 🌟</h1>
+    <p>Empowering individuals with disabilities through technology and inclusion.</p>
+  </header>
 
-  <!-- Header and Positive Thought -->
-  <div class="container">
-    <header>
-      <h1>Inclusion Hub 🌟</h1>
-      <p>Empowering and connecting everyone with disabilities for a more inclusive world. 🌍</p>
-    </header>
-    <img class="header-image" src="https://media.istockphoto.com/id/1316202210/photo/happy-adult-woman-visiting-her-elderly-mother-at-home.jpg?s=612x612&w=0&k=20&c=Dv0VFtkztAtnCf53cEagu6ry1hoiHHKPzQZqCEYVicY=" alt="Inclusion Image">
+  <div class="image-container">
+    <img src="https://media.istockphoto.com/id/1316202210/photo/happy-adult-woman-visiting-her-elderly-mother-at-home.jpg?s=612x612&w=0&k=20&c=Dv0VFtkztAtnCf53cEagu6ry1hoiHHKPzQZqCEYVicY=" alt="Happy Woman Visiting Elderly Mother">
+  </div>
 
-    <div class="quote">
-      "Inclusion means embracing and empowering each unique individual to reach their full potential. Let's create a world where everyone belongs!" 💖
+  <section>
+    <h2>Features of the Inclusion Hub</h2>
+    <button class="feature-button" onclick="showDetails('communication')">💬 Communication Tools</button>
+    <div id="communication" class="feature-details">
+      <p>Accessible communication tools such as text-to-speech and voice recognition for easier interaction.</p>
     </div>
 
-    <section class="intro">
-      <h2>Welcome! 🚀</h2>
-      <p>Welcome to the "Inclusion Hub"! This platform is designed to help individuals with disabilities access essential resources, connect with supportive communities, and thrive in an inclusive society. Whether you want to improve your skills, find accessible places, or learn more about disability empowerment, this is the place for you! 🌟</p>
-      <button onclick="textToSpeech('Welcome to Inclusion Hub!')">Say Welcome 👋</button>
-    </section>
+    <button class="feature-button" onclick="showDetails('accessible')">📍 Find Accessible Places</button>
+    <div id="accessible" class="feature-details">
+      <p>Locate accessible venues nearby with details on ramps, elevators, and other accommodations.</p>
+    </div>
 
-    <section class="more-info">
-      <h2>Looking to improve yourself? 🔥</h2>
-      <p>If you're interested in further enhancing your skills or exploring new ways to empower yourself, click the button below!</p>
-      <button onclick="alert('We are working on new features to help you improve your skills! Stay tuned!')">Start Your Journey 🚀</button>
-    </section>
+    <button class="feature-button" onclick="showDetails('events')">📅 Upcoming Events</button>
+    <div id="events" class="feature-details">
+      <p>Stay informed about accessible events, conferences, and workshops happening in your area.</p>
+    </div>
 
-    <section class="features">
-      <h2>Features 🌟</h2>
-      <div class="features-buttons">
-        <button class="feature-button" onclick="showDetails('communication')">💬 Communication Tools</button>
-        <button class="feature-button" onclick="showDetails('accessibility')">📍 Find Accessible Places</button>
-        <button class="feature-button" onclick="showDetails('events')">📅 Upcoming Events</button>
-        <button class="feature-button" onclick="showDetails('learning')">📚 Learning Hub</button>
-        <button class="feature-button" onclick="showDetails('community')">👥 Connect with a Supportive Community</button>
-        <button class="feature-button" onclick="showDetails('improvement')">💡 Self-Improvement Resources</button>
-      </div>
+    <button class="feature-button" onclick="showDetails('learning')">📚 Learning Hub</button>
+    <div id="learning" class="feature-details">
+      <p>Access a wide range of resources to learn new skills, including assistive technologies and more!</p>
+    </div>
 
-      <!-- Feature Details -->
-      <div id="communication" class="feature-details">
-        <h3>💬 Communication Tools</h3>
-        <p>Our platform provides easy-to-use communication tools designed for people with speech or hearing impairments. These tools include speech-to-text, real-time captioning, and more! 📱</p>
-      </div>
+    <button class="feature-button" onclick="showDetails('community')">👥 Connect with a Supportive Community</button>
+    <div id="community" class="feature-details">
+      <p>Join a community of people with similar experiences to exchange ideas, challenges, and support.</p>
+    </div>
 
-      <div id="accessibility" class="feature-details">
-        <h3>📍 Find Accessible Places</h3>
-        <p>Search and discover accessible places in your area, from public transportation to restaurants and parks. Our map features detailed information on accessibility features like ramps, elevators, and more. 🗺️</p>
-      </div>
+    <button class="feature-button" onclick="showDetails('self-improvement')">💡 Self-Improvement Resources</button>
+    <div id="self-improvement" class="feature-details">
+      <p>Explore various resources and tools that help individuals with disabilities improve their daily lives.</p>
+    </div>
+  </section>
 
-      <div id="events" class="feature-details">
-        <h3>📅 Upcoming Events</h3>
-        <p>Stay updated with upcoming events, conferences, and workshops designed for the disability community. Participate and engage in activities that promote inclusivity and learning. 📅</p>
-      </div>
+  <section class="technologies">
+    <h2>Technologies Empowering Disabilities</h2>
+    <div class="item">
+      <img src="https://example.com/voice-control.jpg" alt="Voice Control Technology">
+      <h3>Voice Control Technology</h3>
+      <p>Voice assistants and command systems can support users with limited mobility or dexterity. 🎤</p>
+    </div>
+    <div class="item">
+      <img src="https://example.com/brain-computer-interface.jpg" alt="Brain-Computer Interface">
+      <h3>Brain-Computer Interface</h3>
+      <p>Enable users to control devices through their brain waves, offering greater autonomy for individuals with severe disabilities. 🧠</p>
+    </div>
+  </section>
 
-      <div id="learning" class="feature-details">
-        <h3>📚 Learning Hub</h3>
-        <p>Access educational resources tailored to individuals with disabilities. Learn new skills, explore new hobbies, and gain knowledge to help you thrive. 📖</p>
-      </div>
+  <section class="community">
+    <h2>Join the Community 🤝</h2>
+    <p>Connect with others, share experiences, and work towards an inclusive society where everyone thrives! 💬</p>
+  </section>
 
-      <div id="community" class="feature-details">
-        <h3>👥 Connect with a Supportive Community</h3>
-        <p>Join online communities and forums where you can share experiences, ask questions, and support one another. Together, we grow stronger. 🤝</p>
-      </div>
-
-      <div id="improvement" class="feature-details">
-        <h3>💡 Self-Improvement Resources</h3>
-        <p>Explore self-help tools, wellness resources, and mental health support to enhance your personal growth and self-confidence. 🧠</p>
-      </div>
-    </section>
-
-    <section class="technologies">
-      <h2>Technologies Empowering Disabilities 💻</h2>
-      <div class="tech-item">
-        <img src="https://example.com/assistive-tech-image.jpg" alt="Assistive Technology">
-        <h3>Assistive Technology</h3>
-        <p>Technologies like screen readers and voice recognition software help people with visual impairments or mobility challenges. 🌐</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://example.com/ai-tech.jpg" alt="AI and Machine Learning">
-        <h3>AI & Machine Learning</h3>
-        <p>AI helps in developing smart applications that can aid people with learning disabilities and enhance accessibility in everyday life. 🤖</p>
-      </div>
-      <div class="tech-item">
-        <img src="https://example.com/voice-control.jpg" alt="Voice Control Technology">
-        <h3>Voice Control Technology</h3>
-        <p>Voice assistants and command systems can support users with limited mobility or dexterity. 🎤</p>
-      </div>
-    </section>
-
-    <section class="community">
-      <h2>Join the Community 🤝</h2>
-      <p>Connect with others, share experiences, and work towards an inclusive society where everyone thrives! 💬</p>
-    </section>
+  <div class="external-link">
+    <p>If you want more ways to improve accessibility, visit this website:</p>
+    <a href="https://www.perkins.org/disabilitytech-making-the-world-more-accessible-for-everyone/" target="_blank">Learn More About Disability Tech & Inclusion</a>
   </div>
+
+  <footer>
+    <p>Credits to the group <strong>ALPHA@ACHIEVERS</strong></p>
+  </footer>
 
   <script>
     // JavaScript to handle the feature details visibility
@@ -252,13 +192,6 @@
       const featureToShow = document.getElementById(feature);
       featureToShow.classList.add('active');
     }
-
-    // JavaScript for Text-to-Speech
-    function textToSpeech(text) {
-      const speech = new SpeechSynthesisUtterance(text);
-      window.speechSynthesis.speak(speech);
-    }
   </script>
-
 </body>
 </html>
